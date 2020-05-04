@@ -3,29 +3,30 @@ import favicon from '../assets/images/rash-favicon.png'
 export const aboutWebsite = {
     "@context": "http://schema.org",
     "@type": "WebSite",
-    "url": "http://rashmiap.me",
-    "name": "Rashmi AP | Front-end Engineer, Zoojoobe",
+    "url": "http://ramishahatit.com",
+    "name": "Rami Shahatit| Product Security Engineer, Workday",
     "author": {
         "@type": "Person",
-        "name": "Rashmi AP"
+        "name": "Rami Shahatit"
     }
 }
 export const siteMeta = {
-    title: 'Rashmi AP | Frontend Developer',
+    title: 'Rami Shahatit | Product Security Engineer',
     favicon: favicon,
-    author: "Rashmi AP",
-    description: "Hello there, welcome to my portfolio. I am a front end developer, visual artist and an animal lover based out of Bangalore.",
-    copyright: "Rashmi AP, Copyright (c) 2018",
+    author: "Rami Shahatit",
+    description: "Hi, I'm Rami. I am a security enthusiast, software developer and proud Jordanian American based out of San Francisco.",
+    copyright: "Rami Shahatit, Copyright (c) 2018",
     keywords: [
-        "Rashmi AP",
-        "ZoojooBE",
-        "frontend engineer",
-        "frontend developer",
+        "Rami Shahatit",
+        "workday",
+        "security engineer",
+        "developer",
         "fullstack engineer",
-        "web engineer",
-        "bangalore",
+        "software developer",
+        "San Francisco",
         "software engineer",
         "engineer",
-        "ui engineer"
+        "Incident Handler",
+        "GCIH Handler"
     ],
 }

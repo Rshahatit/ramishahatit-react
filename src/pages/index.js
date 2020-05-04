@@ -1,5 +1,5 @@
 import React from 'react'
-import RashSelfIcon from '../assets/images/rashmi.svg'
+import RamiSelfIcon from '../assets/images/rami_wfh.png'
 import AboutBox from '../components/About/AboutBox'
 import about from '../data/About'
 import { UserWrapper, UserTitle, UserDescription, DownloadButton, UserTopic } from '../styles/indexStyle.js'
@@ -13,12 +13,12 @@ const IndexPage = () => {
       <div>
         <p>
         Hi, I'm Rami. I am a
-        security enthusiast/software developer, surfer and proud Jordanian American
+        security enthusiast, software developer and proud Jordanian American
         based out of San Francisco.
         </p>
         <DownloadButton href="https://github.com/Rshahatit/ramishahatit/raw/master/Rami%20Nader%20Shahatit%20Resume.pdf"  download title="Resume">Download Resume</DownloadButton>
       </div>
-      <img src={RashSelfIcon} alt="rashmi self" />
+      <img src={RamiSelfIcon} alt="rami self" />
     </UserDescription>
     <UserTopic>
       {

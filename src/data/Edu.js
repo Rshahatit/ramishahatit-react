@@ -1,10 +1,11 @@
 export default [
     {
         id: 1,
-        name: "B M S College of Engineering",
-        major: "Computer Science",
-        degree: "Bachelor",
-        dated: "2011 - 2015",
-        cgpa: "9.12"
+        name: "University of California, Berkeley",
+        major: "Cognitive Science",
+        degree: "Bachelor of Arts",
+        concentration: "Computer Science",
+        dated: "Class of 2018",
+        certification: "GCIH Incident Handler"
     },
 ];

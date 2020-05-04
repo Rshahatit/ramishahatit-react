@@ -5,10 +5,10 @@ export default [
     },
     {
         id: 2,
-        name: "Kannada"
+        name: "Arabic"
     },
     {
         id: 3,
-        name: "Hindi"
+        name: "Spanish"
     }
 ];

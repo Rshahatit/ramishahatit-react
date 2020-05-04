@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/stepper.css'
 import work from '../data/Work'
 import grad from '../data/Edu'
+import cert from '../data/Cert'
 import lang from '../data/Language'
 import hobby from '../data/Interests'
 import { ExperienceWrapper, WorkWrapper, EdWrapper, EdContent, Stepper, StepperHead, LogoLink, StepperDesc } from '../styles/workStyle.js'
@@ -43,8 +44,21 @@ const Experience = () => (
       <EdContent>
         {
           grad.map(item => (<div key={item.id}>
-            <p>Graduated with a {item.degree}'s Degree majored in {item.major} from {item.name} with a CGPA of {item.cgpa} <br/>
-            {item.dated}</p>
+            <p><i>{item.name}</i><br/><br/>
+            {item.dated}<br/><br/>
+            {item.degree} in {item.major}<br/><br/>
+            Concentration in {item.concentration}<br/><br/>
+            </p>
+            </div>))
+        }
+      </EdContent>
+      <h1>Certifications</h1>
+      <EdContent>
+        {
+          cert.map(item => (<div key={item.id}>
+            <p><i>{item.name}</i><br/><br/>
+            <a href="https://www.youracclaim.com/badges/bce640da-65eb-46de-bb09-9d561770f3d5/linked_in_profile">{item.certification}</a> 
+            </p>
             </div>))
         }
       </EdContent>

@@ -1,42 +1,35 @@
-import amygb from '../assets/images/amygb-logo.png'
-import zoojoobe from '../assets/images/zjb-logo.svg'
-import cat from '../assets/images/cat-logo.svg'
+import workday from '../assets/images/workday.png'
+import skycatch from '../assets/images/skycatch.png'
+import veritas from '../assets/images/veritas.png'
+import lookfwd from '../assets/images/lookfwd.jpg'
+
 
 export default [
     {
         id: 1,
-        name: "AmyGb.ai",
-        designation: "Senior Software Engineer",
-        dated: "November 2018 - present",
-        logo: amygb,
-        companyLink: "http://www.amygb.ai",
-        description: "<p>AmyGB Specializes in developing products in the area of Text & Vision with an aim to personalize offerings for enterprises, in a way that enhances their customer experience as well as engagement, while reducing the associated costs for an enterprise using machine learning including deep learning & advanced NLP to simulate human like actions to resolve high impact problems for an enterprise.</p><p>Contribution : <p> <ul><li>Designed and implemented an Express/NodeJS microservice REST API for AmyGB sales website that handles creation, updates and retrieval of data on MongoDB. AWS SES was used to send transactional emails to requested end users.</li></p>"
+        name: "Workday",
+        designation: "Product Security Engineer",
+        dated: "August 2018 - present",
+        logo: workday,
+        companyLink: "http://www.workday.com",
+        description: "<ul><li>Communicated across the SOC, application teams, and other security teams to architect the flow of data from applications to Splunk (SIEM) for proper security alerting.</li><li>Worked with the Vulnerability Management Team to automate the interactions of Qualys, jira, and splunk.</li><li>Built out Vulnerability Dashboards to assist teams in handling vulnerabilities across the organization. </li><li>Optimized the data and application build pipelines for an 8 TB/day Splunk platform. </li><li>Developed a web application using React and Django that automated data onboarding for splunk.</li></ul>"
     },
     {
         id: 2,
-        name: "RoundGlass ZoojooBe",
-        designation: "Software Engineer",
-        dated: "June 2016 - October 2018",
-        logo: zoojoobe,
-        companyLink: "https://www.zoojoo.be",
-        description: "<p>Zoojoo.be is a game based social wellness platform that unites the workforce to form healthier habits. The psychology behind Zoojoo.be is to enable peer-to-peer motivation allowing people to challenge, cheer and reward their colleagues and friends within their organisation. <p>Contribution :<p> <ul><li>We are a small tight-knit team, so I got a chance to wear many hats, from requirement analysis to generating the build.</li><li>Worked closely with Product Managers, UX Designers and Backend Engineers to develop pixel perfect User Interface</li><li>Built new user-facing features on the App like Social feed, Dare, Pregnancy module and Journey which were developed with ReactJS on the frontend stack. You can read more about these under the Projects section.</li><li>Developed and maintained the frontend of Zoojoobe sales website.</li></ul><p>Additional :</p><ul><li>Was part of multiple all-day Hackathons to develop new user-facing features.</li><li>Conducted a yoga webinar session on International Yoga Day at Mindtree and Unisys for about 350 employees each.</li><li>Conducted a yoga session for Society of Human Resource Management(SHRM) Professionals for Zoojoobe's Moonshot event at IIM Bangalore.</li><li>Was part of the product team that organised onsite campaigns.</li></ul>"
+        name: "Skycatch",
+        designation: "Software Engineer Intern",
+        dated: "February 2017 - December 2017",
+        logo: skycatch,
+        companyLink: "https://www.skycatch.com",
+        description: "<ul><li>Built microservices in aws to visualize spot instance usage and predict proper bid price for lasting EC2 usage.</li> <li>Developed a chat bot to help new hires.</li> <li>Improved testing of legacy code.</li></ul>"
     },
     {
         id: 3,
-        name: "RoundGlass ZoojooBe",
-        designation: "Frontend Developer Intern",
-        dated: "Jan 2016 - May 2016",
-        logo: zoojoobe,
-        companyLink: "https://www.zoojoo.be",
-        description: "<p>Zoojoo.be is a game based social wellness platform that unites the workforce to form healthier habits. The psychology behind Zoojoo.be is to enable peer-to-peer motivation allowing people to challenge, cheer and reward their colleagues and friends within their organisation. <p>Contribution : <p> <ul><li>Performance improvements to the platform. This helped reduce the page load time from 12 seconds to just 4 seconds.</li><li>Worked on multiple client specific feature requirements on the platform, for companies like HP, HPI, Mphasis, Sapient, Mindtree and more.</li><li>Developed and maintained the frontend of the sales website for Aware, a guided mindfulness meditation mobile app.</li></ul>"
+        name: "Vertias Technologies LLC",
+        designation: "Software Engineer Intern",
+        dated: "May 2016 - August 2016",
+        logo: veritas,
+        companyLink: "https://www.veritas.com/",
+        description: "<ul><li>Implemented a network management and configuration module using Ansible.</li><li>Organized intern socials from mixers with the CEO to outdoor sport activities.</li> <li>Optimized installation of third party packages by writing a script to discard irrelevant packages.</li></ul>"
     },
-    {
-        id: 4,
-        name: "Caterpillar Inc.",
-        designation: "Associate IT Analyst",
-        dated: "​Aug 2015 - Dec 2015",
-        logo: cat,
-        companyLink: "https://www.caterpillar.com",
-        description: "<p>Started my career at Caterpillar Inc. in the Global Information Services(GIS) division as an Associate IT Analyst.</p><p>Features required me to work across the mainframe stack with COBOL, the primary mainframe programming language  which compiles to machine language, ISPF and JCL."
-    }
 ];

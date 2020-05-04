@@ -1,7 +1,7 @@
 export default [
     {
         id: 1,
-        name: "Yoga"
+        name: "Surfing"
     },
     {
         id: 2,
@@ -9,10 +9,10 @@ export default [
     },
     {
         id: 3,
-        name: "Fine Arts"
+        name: "Mixology"
     },
     {
         id: 4,
-        name: "Traveling"
+        name: "Crabbing"
     }
 ];

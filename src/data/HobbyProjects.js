@@ -1,4 +1,4 @@
-import movie from '../assets/images/projects/movie.svg'
+import wiki from '../assets/images/projects/wiki.png'
 import audio from '../assets/images/projects/audio.svg'
 import game from '../assets/images/projects/game.svg'
 import todo from '../assets/images/projects/todo.svg'
@@ -8,13 +8,12 @@ import fitness from '../assets/images/projects/fitness.svg'
 export default [
     {
         id: 1,
-        title: "React Redux Movies/TV Shows App",
-        icon: movie,
-        description: "This is a responsive movies and TV shows app built using ReactJS and utilizes Redux for state management. The Movie Database (TMDb) API is used to fetch data. You can navigate between the latest movies and the latest TV shows.",
-        githubPath: "https://github.com/rashmiap/react-redux-TMDb-app",
-        demoPath: "https://redux-tmdb-app.surge.sh/",
-        year: "2018",
-        techUsed: "React, Redux, Redux-Thunk, TMDb api"
+        title: "Wikiracer",
+        icon: wiki,
+        description: "A REST API to find the path to traverse from one Wikipedia page to another, using only links.",
+        githubPath: "https://github.com/Rshahatit/wikiracer",
+        year: 2020,
+        techUsed: "Django, Docker, asyncio"
     },
     {
         id: 2,

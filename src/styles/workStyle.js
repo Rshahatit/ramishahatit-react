@@ -40,6 +40,14 @@ export const EdContent = styled.div`
   @media (max-width: 700px) {
     margin: 0 0 40px 0;
   }
+  a{
+    color: #7fa1e8;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin:0 0 10px;
+    text-decoration: none;
+  }
 `
 export const Stepper = styled.div`
   padding-left: 50px;
