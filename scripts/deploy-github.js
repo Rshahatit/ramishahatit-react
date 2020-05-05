@@ -4,7 +4,7 @@ ghpages.publish(
   'public', 
   { 
     branch: 'master', 
-    repo: 'https://github.com/Rshahatit/ramishahatit-react', 
+    repo: 'https://github.com/Rshahatit/ramishahatit', 
   }, 
   () => { 
     console.log('Deploy Complete!') 
