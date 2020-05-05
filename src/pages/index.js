@@ -13,7 +13,7 @@ const IndexPage = () => {
       <div>
         <p>
         Hi, I'm Rami. I am a
-        security enthusiast, software developer and proud Jordanian American
+        security enthusiast, software developer, and proud Jordanian American
         based out of San Francisco.
         </p>
         <DownloadButton href="https://github.com/Rshahatit/ramishahatit/raw/master/Rami%20Nader%20Shahatit%20Resume.pdf"  download title="Resume">Download Resume</DownloadButton>

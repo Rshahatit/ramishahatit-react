@@ -12,11 +12,11 @@ export default [
     path: '/projects',
   },
   {
-    label: 'Contact',
-    path: '/contact',
+    label: 'Skills',
+    path: '/skills',
   },
   {
-    label: 'Recommendation',
-    path: '/recommendation',
+    label: 'Contact',
+    path: '/contact',
   }
 ]

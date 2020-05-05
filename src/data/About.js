@@ -13,8 +13,8 @@ export default [
     },
     {
         id: 3,
-        title: "Awards",
-        description: "I ❤️ Hackathons",
-        path: "/recommendation"
+        title: "Skills and Awards",
+        description: "List is always growing. I love Hackathons.",
+        path: "/skills"
     }
 ];

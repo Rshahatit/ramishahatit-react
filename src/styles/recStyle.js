@@ -2,6 +2,8 @@ import styled from 'styled-components'
 
 export const RecWrapper = styled.div`
   padding: 5%;
+  flex: 2;
+  margin-right: 8%;
   >h1{
     color: #fff;
     padding-bottom: 30px;
@@ -11,9 +13,18 @@ export const RecWrapper = styled.div`
   @media (max-width: 700px) {
     padding: 10% 0 20%;
   }
+  >ul{
+    -moz-column-count: 4;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 20px;
+    column-count: 3;
+    column-gap: 20px;
+
+  }
 `
 export const RecBox = styled.div`
-  margin-top: 10%;
+
   color: #eeeeee;
   h3 a{
     margin: 0;
@@ -26,7 +37,7 @@ export const RecBox = styled.div`
   }
   hr{
     background: #7fa1e8;
-    width: 15%;
+    width: 10%;
     height: 3px;
     margin: 3% 0;
   }
