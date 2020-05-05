@@ -16,7 +16,7 @@ const IndexPage = () => {
         security enthusiast, software developer, and proud Jordanian American
         based out of San Francisco.
         </p>
-        <DownloadButton href="https://github.com/Rshahatit/ramishahatit/raw/master/Rami%20Nader%20Shahatit%20Resume.pdf"  download title="Resume">Download Resume</DownloadButton>
+        <DownloadButton href="https://github.com/Rshahatit/ramishahatit-react/raw/master/Rami_Shahatit_Resume_2020%20(2).pdf"  download title="Resume">Download Resume</DownloadButton>
       </div>
       <img src={RamiSelfIcon} alt="rami self" />
     </UserDescription>
