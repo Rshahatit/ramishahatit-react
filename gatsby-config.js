@@ -1,4 +1,6 @@
 module.exports = {
+
+  pathPrefix: "/ramishahatit-react",
   siteMetadata: {
     title: 'Rami Shahatit',
     siteUrl: 'http://ramishahatit.com',

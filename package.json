@@ -3,7 +3,7 @@
   "private": true,
   "description": "A simple portfolio website developed quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Rashmi AP <rashmiap.10@gmail.com>",
+  "author": "Rami Shahatit <rshahahtit@berkeley.edu>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.0.76",
@@ -34,7 +34,9 @@
     "start": "npm run develop",
     "now-build": "npm run build",
     "format": "prettier --write \"src/**/*.js\"",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b develop"
+
   },
   "devDependencies": {
     "prettier": "^1.15.2"
