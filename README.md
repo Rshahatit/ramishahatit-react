@@ -4,7 +4,7 @@ Hello world 👋. <br/>
 This site is developed using [**Gatsby**](https://www.gatsbyjs.org/)🚀.<br/>
 Check out the site at http://ramishahatit.com 
 -
-![Preview Me](src/assets/images/rami_code.png)
+![Preview Me](src/assets/images/rami_hello.png)
 
 
 **Run Locally**
