@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         title: "Experience",
-        description: "Cal graduate with enough internships to become a Product Security Engineer.",
+        description: "Product Security Engineer at Workday and have past intern experience at Skycatch and Veritas.",
         path: "/experience"
     },
     {
