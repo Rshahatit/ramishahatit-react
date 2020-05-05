@@ -3,11 +3,10 @@
   "private": true,
   "description": "A simple portfolio website developed quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Rami Shahatit <rshahatit@berkeley.edu>",
+  "author": "Rashmi AP <rashmiap.10@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.0.76",
-    "gatsby-cli": "^2.12.8",
     "gatsby-image": "^2.0.20",
     "gatsby-plugin-google-analytics": "^2.0.9",
     "gatsby-plugin-google-fonts": "0.0.4",
@@ -35,16 +34,14 @@
     "start": "npm run develop",
     "now-build": "npm run build",
     "format": "prettier --write \"src/**/*.js\"",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0",
     "prettier": "^1.15.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/Rshahatit/ramishahatit-react"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
